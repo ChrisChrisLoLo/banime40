@@ -1,0 +1,1282 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Keebio:ProMicro U1
+U 1 1 62143F16
+P 1700 1650
+F 0 "U1" H 1700 2487 60  0000 C CNN
+F 1 "ProMicro" H 1700 2381 60  0000 C CNN
+F 2 "Keebio:Elite-C-castellated-24pin-holes" V 2750 -850 60  0001 C CNN
+F 3 "" V 2750 -850 60  0001 C CNN
+	1    1700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 62163ED9
+P 3350 1450
+F 0 "D1" H 3350 1667 50  0000 C CNN
+F 1 "D" H 3350 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 3350 1450 50  0001 C CNN
+F 3 "~" H 3350 1450 50  0001 C CNN
+	1    3350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 62163EDF
+P 3550 1300
+F 0 "SW1" H 3550 1535 50  0000 C CNN
+F 1 "SW_SPST" H 3550 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 3550 1300 50  0001 C CNN
+F 3 "~" H 3550 1300 50  0001 C CNN
+	1    3550 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1050 3750 1300
+Connection ~ 3750 1300
+Connection ~ 3350 1600
+Wire Wire Line
+	3200 1600 3350 1600
+$Comp
+L Device:D D2
+U 1 1 62166FAF
+P 3950 1450
+F 0 "D2" H 3950 1667 50  0000 C CNN
+F 1 "D" H 3950 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 3950 1450 50  0001 C CNN
+F 3 "~" H 3950 1450 50  0001 C CNN
+	1    3950 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 62166FB5
+P 4150 1300
+F 0 "SW2" H 4150 1535 50  0000 C CNN
+F 1 "SW_SPST" H 4150 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4150 1300 50  0001 C CNN
+F 3 "~" H 4150 1300 50  0001 C CNN
+	1    4150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1050 4350 1300
+Connection ~ 4350 1300
+Connection ~ 3950 1600
+Wire Wire Line
+	3350 1600 3950 1600
+$Comp
+L Device:D D3
+U 1 1 62167FF9
+P 4550 1450
+F 0 "D3" H 4550 1667 50  0000 C CNN
+F 1 "D" H 4550 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 4550 1450 50  0001 C CNN
+F 3 "~" H 4550 1450 50  0001 C CNN
+	1    4550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 62167FFF
+P 4750 1300
+F 0 "SW3" H 4750 1535 50  0000 C CNN
+F 1 "SW_SPST" H 4750 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4750 1300 50  0001 C CNN
+F 3 "~" H 4750 1300 50  0001 C CNN
+	1    4750 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1050 4950 1300
+Connection ~ 4950 1300
+Connection ~ 4550 1600
+Wire Wire Line
+	3950 1600 4550 1600
+$Comp
+L Device:D D4
+U 1 1 62169E8E
+P 5150 1450
+F 0 "D4" H 5150 1667 50  0000 C CNN
+F 1 "D" H 5150 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 5150 1450 50  0001 C CNN
+F 3 "~" H 5150 1450 50  0001 C CNN
+	1    5150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 62169E94
+P 5350 1300
+F 0 "SW4" H 5350 1535 50  0000 C CNN
+F 1 "SW_SPST" H 5350 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5350 1300 50  0001 C CNN
+F 3 "~" H 5350 1300 50  0001 C CNN
+	1    5350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1050 5550 1300
+Connection ~ 5550 1300
+Connection ~ 5150 1600
+Wire Wire Line
+	4550 1600 5150 1600
+$Comp
+L Device:D D5
+U 1 1 6216C24F
+P 5750 1450
+F 0 "D5" H 5750 1667 50  0000 C CNN
+F 1 "D" H 5750 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 5750 1450 50  0001 C CNN
+F 3 "~" H 5750 1450 50  0001 C CNN
+	1    5750 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 6216C255
+P 5950 1300
+F 0 "SW5" H 5950 1535 50  0000 C CNN
+F 1 "SW_SPST" H 5950 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 1300 50  0001 C CNN
+F 3 "~" H 5950 1300 50  0001 C CNN
+	1    5950 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1050 6150 1300
+Connection ~ 6150 1300
+Connection ~ 5750 1600
+Wire Wire Line
+	5150 1600 5750 1600
+$Comp
+L Device:D D6
+U 1 1 62183A99
+P 6350 1450
+F 0 "D6" H 6350 1667 50  0000 C CNN
+F 1 "D" H 6350 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 6350 1450 50  0001 C CNN
+F 3 "~" H 6350 1450 50  0001 C CNN
+	1    6350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW6
+U 1 1 62183A9F
+P 6550 1300
+F 0 "SW6" H 6550 1535 50  0000 C CNN
+F 1 "SW_SPST" H 6550 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 1300 50  0001 C CNN
+F 3 "~" H 6550 1300 50  0001 C CNN
+	1    6550 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1050 6750 1300
+Connection ~ 6750 1300
+Connection ~ 6350 1600
+$Comp
+L Device:D D7
+U 1 1 62183AAA
+P 6950 1450
+F 0 "D7" H 6950 1667 50  0000 C CNN
+F 1 "D" H 6950 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 6950 1450 50  0001 C CNN
+F 3 "~" H 6950 1450 50  0001 C CNN
+	1    6950 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 62183AB0
+P 7150 1300
+F 0 "SW7" H 7150 1535 50  0000 C CNN
+F 1 "SW_SPST" H 7150 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7150 1300 50  0001 C CNN
+F 3 "~" H 7150 1300 50  0001 C CNN
+	1    7150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1050 7350 1300
+Connection ~ 7350 1300
+Connection ~ 6950 1600
+Wire Wire Line
+	6350 1600 6950 1600
+$Comp
+L Device:D D8
+U 1 1 62183ABB
+P 7550 1450
+F 0 "D8" H 7550 1667 50  0000 C CNN
+F 1 "D" H 7550 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 7550 1450 50  0001 C CNN
+F 3 "~" H 7550 1450 50  0001 C CNN
+	1    7550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW8
+U 1 1 62183AC1
+P 7750 1300
+F 0 "SW8" H 7750 1535 50  0000 C CNN
+F 1 "SW_SPST" H 7750 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7750 1300 50  0001 C CNN
+F 3 "~" H 7750 1300 50  0001 C CNN
+	1    7750 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1050 7950 1300
+Connection ~ 7950 1300
+Connection ~ 7550 1600
+Wire Wire Line
+	6950 1600 7550 1600
+$Comp
+L Device:D D9
+U 1 1 62183ACC
+P 8150 1450
+F 0 "D9" H 8150 1667 50  0000 C CNN
+F 1 "D" H 8150 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 8150 1450 50  0001 C CNN
+F 3 "~" H 8150 1450 50  0001 C CNN
+	1    8150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW9
+U 1 1 62183AD2
+P 8350 1300
+F 0 "SW9" H 8350 1535 50  0000 C CNN
+F 1 "SW_SPST" H 8350 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8350 1300 50  0001 C CNN
+F 3 "~" H 8350 1300 50  0001 C CNN
+	1    8350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1050 8550 1300
+Connection ~ 8550 1300
+Connection ~ 8150 1600
+Wire Wire Line
+	7550 1600 8150 1600
+$Comp
+L Device:D D10
+U 1 1 62183ADD
+P 8750 1450
+F 0 "D10" H 8750 1667 50  0000 C CNN
+F 1 "D" H 8750 1576 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 8750 1450 50  0001 C CNN
+F 3 "~" H 8750 1450 50  0001 C CNN
+	1    8750 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW10
+U 1 1 62183AE3
+P 8950 1300
+F 0 "SW10" H 8950 1535 50  0000 C CNN
+F 1 "SW_SPST" H 8950 1444 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8950 1300 50  0001 C CNN
+F 3 "~" H 8950 1300 50  0001 C CNN
+	1    8950 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1050 9150 1300
+Connection ~ 9150 1300
+Connection ~ 8750 1600
+Wire Wire Line
+	8750 1600 9200 1600
+Wire Wire Line
+	8150 1600 8750 1600
+Wire Wire Line
+	5750 1600 6350 1600
+$Comp
+L Device:D D11
+U 1 1 621AA791
+P 3350 2100
+F 0 "D11" H 3350 2317 50  0000 C CNN
+F 1 "D" H 3350 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 3350 2100 50  0001 C CNN
+F 3 "~" H 3350 2100 50  0001 C CNN
+	1    3350 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW11
+U 1 1 621AA797
+P 3550 1950
+F 0 "SW11" H 3550 2185 50  0000 C CNN
+F 1 "SW_SPST" H 3550 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 3550 1950 50  0001 C CNN
+F 3 "~" H 3550 1950 50  0001 C CNN
+	1    3550 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 1950
+Connection ~ 3350 2250
+Wire Wire Line
+	3200 2250 3350 2250
+$Comp
+L Device:D D12
+U 1 1 621AA7A2
+P 3950 2100
+F 0 "D12" H 3950 2317 50  0000 C CNN
+F 1 "D" H 3950 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 3950 2100 50  0001 C CNN
+F 3 "~" H 3950 2100 50  0001 C CNN
+	1    3950 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW12
+U 1 1 621AA7A8
+P 4150 1950
+F 0 "SW12" H 4150 2185 50  0000 C CNN
+F 1 "SW_SPST" H 4150 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4150 1950 50  0001 C CNN
+F 3 "~" H 4150 1950 50  0001 C CNN
+	1    4150 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 1950
+Connection ~ 3950 2250
+Wire Wire Line
+	3350 2250 3950 2250
+$Comp
+L Device:D D13
+U 1 1 621AA7B3
+P 4550 2100
+F 0 "D13" H 4550 2317 50  0000 C CNN
+F 1 "D" H 4550 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 4550 2100 50  0001 C CNN
+F 3 "~" H 4550 2100 50  0001 C CNN
+	1    4550 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW13
+U 1 1 621AA7B9
+P 4750 1950
+F 0 "SW13" H 4750 2185 50  0000 C CNN
+F 1 "SW_SPST" H 4750 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4750 1950 50  0001 C CNN
+F 3 "~" H 4750 1950 50  0001 C CNN
+	1    4750 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 1950
+Connection ~ 4550 2250
+Wire Wire Line
+	3950 2250 4550 2250
+$Comp
+L Device:D D14
+U 1 1 621AA7C4
+P 5150 2100
+F 0 "D14" H 5150 2317 50  0000 C CNN
+F 1 "D" H 5150 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 5150 2100 50  0001 C CNN
+F 3 "~" H 5150 2100 50  0001 C CNN
+	1    5150 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW14
+U 1 1 621AA7CA
+P 5350 1950
+F 0 "SW14" H 5350 2185 50  0000 C CNN
+F 1 "SW_SPST" H 5350 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5350 1950 50  0001 C CNN
+F 3 "~" H 5350 1950 50  0001 C CNN
+	1    5350 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 1950
+Connection ~ 5150 2250
+Wire Wire Line
+	4550 2250 5150 2250
+$Comp
+L Device:D D15
+U 1 1 621AA7D5
+P 5750 2100
+F 0 "D15" H 5750 2317 50  0000 C CNN
+F 1 "D" H 5750 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 5750 2100 50  0001 C CNN
+F 3 "~" H 5750 2100 50  0001 C CNN
+	1    5750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW15
+U 1 1 621AA7DB
+P 5950 1950
+F 0 "SW15" H 5950 2185 50  0000 C CNN
+F 1 "SW_SPST" H 5950 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 1950 50  0001 C CNN
+F 3 "~" H 5950 1950 50  0001 C CNN
+	1    5950 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 1950
+Connection ~ 5750 2250
+Wire Wire Line
+	5150 2250 5750 2250
+$Comp
+L Device:D D16
+U 1 1 621AA7E6
+P 6350 2100
+F 0 "D16" H 6350 2317 50  0000 C CNN
+F 1 "D" H 6350 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 6350 2100 50  0001 C CNN
+F 3 "~" H 6350 2100 50  0001 C CNN
+	1    6350 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW16
+U 1 1 621AA7EC
+P 6550 1950
+F 0 "SW16" H 6550 2185 50  0000 C CNN
+F 1 "SW_SPST" H 6550 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 1950 50  0001 C CNN
+F 3 "~" H 6550 1950 50  0001 C CNN
+	1    6550 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 1950
+Connection ~ 6350 2250
+$Comp
+L Device:D D17
+U 1 1 621AA7F6
+P 6950 2100
+F 0 "D17" H 6950 2317 50  0000 C CNN
+F 1 "D" H 6950 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 6950 2100 50  0001 C CNN
+F 3 "~" H 6950 2100 50  0001 C CNN
+	1    6950 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW17
+U 1 1 621AA7FC
+P 7150 1950
+F 0 "SW17" H 7150 2185 50  0000 C CNN
+F 1 "SW_SPST" H 7150 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7150 1950 50  0001 C CNN
+F 3 "~" H 7150 1950 50  0001 C CNN
+	1    7150 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 1950
+Connection ~ 6950 2250
+Wire Wire Line
+	6350 2250 6950 2250
+$Comp
+L Device:D D18
+U 1 1 621AA807
+P 7550 2100
+F 0 "D18" H 7550 2317 50  0000 C CNN
+F 1 "D" H 7550 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 7550 2100 50  0001 C CNN
+F 3 "~" H 7550 2100 50  0001 C CNN
+	1    7550 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW18
+U 1 1 621AA80D
+P 7750 1950
+F 0 "SW18" H 7750 2185 50  0000 C CNN
+F 1 "SW_SPST" H 7750 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7750 1950 50  0001 C CNN
+F 3 "~" H 7750 1950 50  0001 C CNN
+	1    7750 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 1950
+Connection ~ 7550 2250
+Wire Wire Line
+	6950 2250 7550 2250
+$Comp
+L Device:D D19
+U 1 1 621AA818
+P 8150 2100
+F 0 "D19" H 8150 2317 50  0000 C CNN
+F 1 "D" H 8150 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 8150 2100 50  0001 C CNN
+F 3 "~" H 8150 2100 50  0001 C CNN
+	1    8150 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW19
+U 1 1 621AA81E
+P 8350 1950
+F 0 "SW19" H 8350 2185 50  0000 C CNN
+F 1 "SW_SPST" H 8350 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8350 1950 50  0001 C CNN
+F 3 "~" H 8350 1950 50  0001 C CNN
+	1    8350 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 1950
+Connection ~ 8150 2250
+Wire Wire Line
+	7550 2250 8150 2250
+$Comp
+L Device:D D20
+U 1 1 621AA829
+P 8750 2100
+F 0 "D20" H 8750 2317 50  0000 C CNN
+F 1 "D" H 8750 2226 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 8750 2100 50  0001 C CNN
+F 3 "~" H 8750 2100 50  0001 C CNN
+	1    8750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW20
+U 1 1 621AA82F
+P 8950 1950
+F 0 "SW20" H 8950 2185 50  0000 C CNN
+F 1 "SW_SPST" H 8950 2094 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8950 1950 50  0001 C CNN
+F 3 "~" H 8950 1950 50  0001 C CNN
+	1    8950 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 1950
+Connection ~ 8750 2250
+Wire Wire Line
+	8750 2250 9200 2250
+Wire Wire Line
+	8150 2250 8750 2250
+Wire Wire Line
+	5750 2250 6350 2250
+Wire Wire Line
+	3750 1300 3750 1950
+Wire Wire Line
+	4350 1300 4350 1950
+Wire Wire Line
+	4950 1300 4950 1950
+Wire Wire Line
+	5550 1300 5550 1950
+Wire Wire Line
+	6150 1300 6150 1950
+Wire Wire Line
+	6750 1300 6750 1950
+Wire Wire Line
+	7350 1300 7350 1950
+Wire Wire Line
+	7950 1300 7950 1950
+Wire Wire Line
+	8550 1300 8550 1950
+Wire Wire Line
+	9150 1300 9150 1950
+$Comp
+L Device:D D21
+U 1 1 621B5FEA
+P 3350 2750
+F 0 "D21" H 3350 2967 50  0000 C CNN
+F 1 "D" H 3350 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 3350 2750 50  0001 C CNN
+F 3 "~" H 3350 2750 50  0001 C CNN
+	1    3350 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW21
+U 1 1 621B5FF0
+P 3550 2600
+F 0 "SW21" H 3550 2835 50  0000 C CNN
+F 1 "SW_SPST" H 3550 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 3550 2600 50  0001 C CNN
+F 3 "~" H 3550 2600 50  0001 C CNN
+	1    3550 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 2600
+Connection ~ 3350 2900
+Wire Wire Line
+	3200 2900 3350 2900
+$Comp
+L Device:D D22
+U 1 1 621B5FFB
+P 3950 2750
+F 0 "D22" H 3950 2967 50  0000 C CNN
+F 1 "D" H 3950 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 3950 2750 50  0001 C CNN
+F 3 "~" H 3950 2750 50  0001 C CNN
+	1    3950 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW22
+U 1 1 621B6001
+P 4150 2600
+F 0 "SW22" H 4150 2835 50  0000 C CNN
+F 1 "SW_SPST" H 4150 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4150 2600 50  0001 C CNN
+F 3 "~" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 2600
+Connection ~ 3950 2900
+Wire Wire Line
+	3350 2900 3950 2900
+$Comp
+L Device:D D23
+U 1 1 621B600C
+P 4550 2750
+F 0 "D23" H 4550 2967 50  0000 C CNN
+F 1 "D" H 4550 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 4550 2750 50  0001 C CNN
+F 3 "~" H 4550 2750 50  0001 C CNN
+	1    4550 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW23
+U 1 1 621B6012
+P 4750 2600
+F 0 "SW23" H 4750 2835 50  0000 C CNN
+F 1 "SW_SPST" H 4750 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4750 2600 50  0001 C CNN
+F 3 "~" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 2600
+Connection ~ 4550 2900
+Wire Wire Line
+	3950 2900 4550 2900
+$Comp
+L Device:D D24
+U 1 1 621B601D
+P 5150 2750
+F 0 "D24" H 5150 2967 50  0000 C CNN
+F 1 "D" H 5150 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 5150 2750 50  0001 C CNN
+F 3 "~" H 5150 2750 50  0001 C CNN
+	1    5150 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW24
+U 1 1 621B6023
+P 5350 2600
+F 0 "SW24" H 5350 2835 50  0000 C CNN
+F 1 "SW_SPST" H 5350 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5350 2600 50  0001 C CNN
+F 3 "~" H 5350 2600 50  0001 C CNN
+	1    5350 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 2600
+Connection ~ 5150 2900
+Wire Wire Line
+	4550 2900 5150 2900
+$Comp
+L Device:D D25
+U 1 1 621B602E
+P 5750 2750
+F 0 "D25" H 5750 2967 50  0000 C CNN
+F 1 "D" H 5750 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 5750 2750 50  0001 C CNN
+F 3 "~" H 5750 2750 50  0001 C CNN
+	1    5750 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW25
+U 1 1 621B6034
+P 5950 2600
+F 0 "SW25" H 5950 2835 50  0000 C CNN
+F 1 "SW_SPST" H 5950 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 2600 50  0001 C CNN
+F 3 "~" H 5950 2600 50  0001 C CNN
+	1    5950 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 2600
+Connection ~ 5750 2900
+Wire Wire Line
+	5150 2900 5750 2900
+$Comp
+L Device:D D26
+U 1 1 621B603F
+P 6350 2750
+F 0 "D26" H 6350 2967 50  0000 C CNN
+F 1 "D" H 6350 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 6350 2750 50  0001 C CNN
+F 3 "~" H 6350 2750 50  0001 C CNN
+	1    6350 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW26
+U 1 1 621B6045
+P 6550 2600
+F 0 "SW26" H 6550 2835 50  0000 C CNN
+F 1 "SW_SPST" H 6550 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 2600 50  0001 C CNN
+F 3 "~" H 6550 2600 50  0001 C CNN
+	1    6550 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 2600
+Connection ~ 6350 2900
+$Comp
+L Device:D D27
+U 1 1 621B604F
+P 6950 2750
+F 0 "D27" H 6950 2967 50  0000 C CNN
+F 1 "D" H 6950 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 6950 2750 50  0001 C CNN
+F 3 "~" H 6950 2750 50  0001 C CNN
+	1    6950 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW27
+U 1 1 621B6055
+P 7150 2600
+F 0 "SW27" H 7150 2835 50  0000 C CNN
+F 1 "SW_SPST" H 7150 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7150 2600 50  0001 C CNN
+F 3 "~" H 7150 2600 50  0001 C CNN
+	1    7150 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 2600
+Connection ~ 6950 2900
+Wire Wire Line
+	6350 2900 6950 2900
+$Comp
+L Device:D D28
+U 1 1 621B6060
+P 7550 2750
+F 0 "D28" H 7550 2967 50  0000 C CNN
+F 1 "D" H 7550 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 7550 2750 50  0001 C CNN
+F 3 "~" H 7550 2750 50  0001 C CNN
+	1    7550 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW28
+U 1 1 621B6066
+P 7750 2600
+F 0 "SW28" H 7750 2835 50  0000 C CNN
+F 1 "SW_SPST" H 7750 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7750 2600 50  0001 C CNN
+F 3 "~" H 7750 2600 50  0001 C CNN
+	1    7750 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 2600
+Connection ~ 7550 2900
+Wire Wire Line
+	6950 2900 7550 2900
+$Comp
+L Device:D D29
+U 1 1 621B6071
+P 8150 2750
+F 0 "D29" H 8150 2967 50  0000 C CNN
+F 1 "D" H 8150 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 8150 2750 50  0001 C CNN
+F 3 "~" H 8150 2750 50  0001 C CNN
+	1    8150 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW29
+U 1 1 621B6077
+P 8350 2600
+F 0 "SW29" H 8350 2835 50  0000 C CNN
+F 1 "SW_SPST" H 8350 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8350 2600 50  0001 C CNN
+F 3 "~" H 8350 2600 50  0001 C CNN
+	1    8350 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 2600
+Connection ~ 8150 2900
+Wire Wire Line
+	7550 2900 8150 2900
+$Comp
+L Device:D D30
+U 1 1 621B6082
+P 8750 2750
+F 0 "D30" H 8750 2967 50  0000 C CNN
+F 1 "D" H 8750 2876 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 8750 2750 50  0001 C CNN
+F 3 "~" H 8750 2750 50  0001 C CNN
+	1    8750 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW30
+U 1 1 621B6088
+P 8950 2600
+F 0 "SW30" H 8950 2835 50  0000 C CNN
+F 1 "SW_SPST" H 8950 2744 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8950 2600 50  0001 C CNN
+F 3 "~" H 8950 2600 50  0001 C CNN
+	1    8950 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 2600
+Connection ~ 8750 2900
+Wire Wire Line
+	8750 2900 9200 2900
+Wire Wire Line
+	8150 2900 8750 2900
+Wire Wire Line
+	5750 2900 6350 2900
+Wire Wire Line
+	3750 1950 3750 2600
+Wire Wire Line
+	4350 1950 4350 2600
+Wire Wire Line
+	4950 1950 4950 2600
+Wire Wire Line
+	5550 1950 5550 2600
+Wire Wire Line
+	6150 1950 6150 2600
+Wire Wire Line
+	6750 1950 6750 2600
+Wire Wire Line
+	7350 1950 7350 2600
+Wire Wire Line
+	7950 1950 7950 2600
+Wire Wire Line
+	8550 1950 8550 2600
+Wire Wire Line
+	9150 1950 9150 2600
+$Comp
+L Device:D D31
+U 1 1 621CCAF7
+P 3350 3400
+F 0 "D31" H 3350 3617 50  0000 C CNN
+F 1 "D" H 3350 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 3350 3400 50  0001 C CNN
+F 3 "~" H 3350 3400 50  0001 C CNN
+	1    3350 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW31
+U 1 1 621CCAFD
+P 3550 3250
+F 0 "SW31" H 3550 3485 50  0000 C CNN
+F 1 "SW_SPST" H 3550 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 3550 3250 50  0001 C CNN
+F 3 "~" H 3550 3250 50  0001 C CNN
+	1    3550 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 3250
+Connection ~ 3350 3550
+Wire Wire Line
+	3750 3250 3750 3650
+Wire Wire Line
+	3200 3550 3350 3550
+$Comp
+L Device:D D32
+U 1 1 621CCB08
+P 3950 3400
+F 0 "D32" H 3950 3617 50  0000 C CNN
+F 1 "D" H 3950 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 3950 3400 50  0001 C CNN
+F 3 "~" H 3950 3400 50  0001 C CNN
+	1    3950 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW32
+U 1 1 621CCB0E
+P 4150 3250
+F 0 "SW32" H 4150 3485 50  0000 C CNN
+F 1 "SW_SPST" H 4150 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4150 3250 50  0001 C CNN
+F 3 "~" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 3250
+Connection ~ 3950 3550
+Wire Wire Line
+	4350 3250 4350 3650
+Wire Wire Line
+	3350 3550 3950 3550
+$Comp
+L Device:D D33
+U 1 1 621CCB19
+P 4550 3400
+F 0 "D33" H 4550 3617 50  0000 C CNN
+F 1 "D" H 4550 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 4550 3400 50  0001 C CNN
+F 3 "~" H 4550 3400 50  0001 C CNN
+	1    4550 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW33
+U 1 1 621CCB1F
+P 4750 3250
+F 0 "SW33" H 4750 3485 50  0000 C CNN
+F 1 "SW_SPST" H 4750 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4750 3250 50  0001 C CNN
+F 3 "~" H 4750 3250 50  0001 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 3250
+Connection ~ 4550 3550
+Wire Wire Line
+	4950 3250 4950 3650
+Wire Wire Line
+	3950 3550 4550 3550
+$Comp
+L Device:D D34
+U 1 1 621CCB2A
+P 5150 3400
+F 0 "D34" H 5150 3617 50  0000 C CNN
+F 1 "D" H 5150 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 5150 3400 50  0001 C CNN
+F 3 "~" H 5150 3400 50  0001 C CNN
+	1    5150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW34
+U 1 1 621CCB30
+P 5350 3250
+F 0 "SW34" H 5350 3485 50  0000 C CNN
+F 1 "SW_SPST" H 5350 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5350 3250 50  0001 C CNN
+F 3 "~" H 5350 3250 50  0001 C CNN
+	1    5350 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 3250
+Connection ~ 5150 3550
+Wire Wire Line
+	5550 3250 5550 3650
+Wire Wire Line
+	4550 3550 5150 3550
+$Comp
+L Device:D D35
+U 1 1 621CCB3B
+P 5750 3400
+F 0 "D35" H 5750 3617 50  0000 C CNN
+F 1 "D" H 5750 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 5750 3400 50  0001 C CNN
+F 3 "~" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW35
+U 1 1 621CCB41
+P 5950 3250
+F 0 "SW35" H 5950 3485 50  0000 C CNN
+F 1 "SW_SPST" H 5950 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 3250 50  0001 C CNN
+F 3 "~" H 5950 3250 50  0001 C CNN
+	1    5950 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 3250
+Connection ~ 5750 3550
+Wire Wire Line
+	6150 3250 6150 3650
+Wire Wire Line
+	5150 3550 5750 3550
+$Comp
+L Device:D D36
+U 1 1 621CCB4C
+P 6350 3400
+F 0 "D36" H 6350 3617 50  0000 C CNN
+F 1 "D" H 6350 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 6350 3400 50  0001 C CNN
+F 3 "~" H 6350 3400 50  0001 C CNN
+	1    6350 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW36
+U 1 1 621CCB52
+P 6550 3250
+F 0 "SW36" H 6550 3485 50  0000 C CNN
+F 1 "SW_SPST" H 6550 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 3250 50  0001 C CNN
+F 3 "~" H 6550 3250 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 3250
+Connection ~ 6350 3550
+Wire Wire Line
+	6750 3250 6750 3650
+$Comp
+L Device:D D37
+U 1 1 621CCB5C
+P 6950 3400
+F 0 "D37" H 6950 3617 50  0000 C CNN
+F 1 "D" H 6950 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 6950 3400 50  0001 C CNN
+F 3 "~" H 6950 3400 50  0001 C CNN
+	1    6950 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW37
+U 1 1 621CCB62
+P 7150 3250
+F 0 "SW37" H 7150 3485 50  0000 C CNN
+F 1 "SW_SPST" H 7150 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7150 3250 50  0001 C CNN
+F 3 "~" H 7150 3250 50  0001 C CNN
+	1    7150 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 3250
+Connection ~ 6950 3550
+Wire Wire Line
+	7350 3250 7350 3650
+Wire Wire Line
+	6350 3550 6950 3550
+$Comp
+L Device:D D38
+U 1 1 621CCB6D
+P 7550 3400
+F 0 "D38" H 7550 3617 50  0000 C CNN
+F 1 "D" H 7550 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 7550 3400 50  0001 C CNN
+F 3 "~" H 7550 3400 50  0001 C CNN
+	1    7550 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW38
+U 1 1 621CCB73
+P 7750 3250
+F 0 "SW38" H 7750 3485 50  0000 C CNN
+F 1 "SW_SPST" H 7750 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7750 3250 50  0001 C CNN
+F 3 "~" H 7750 3250 50  0001 C CNN
+	1    7750 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 3250
+Connection ~ 7550 3550
+Wire Wire Line
+	7950 3250 7950 3650
+Wire Wire Line
+	6950 3550 7550 3550
+$Comp
+L Device:D D39
+U 1 1 621CCB7E
+P 8150 3400
+F 0 "D39" H 8150 3617 50  0000 C CNN
+F 1 "D" H 8150 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 8150 3400 50  0001 C CNN
+F 3 "~" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW39
+U 1 1 621CCB84
+P 8350 3250
+F 0 "SW39" H 8350 3485 50  0000 C CNN
+F 1 "SW_SPST" H 8350 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8350 3250 50  0001 C CNN
+F 3 "~" H 8350 3250 50  0001 C CNN
+	1    8350 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8550 3250
+Connection ~ 8150 3550
+Wire Wire Line
+	8550 3250 8550 3650
+Wire Wire Line
+	7550 3550 8150 3550
+$Comp
+L Device:D D40
+U 1 1 621CCB8F
+P 8750 3400
+F 0 "D40" H 8750 3617 50  0000 C CNN
+F 1 "D" H 8750 3526 50  0000 C CNN
+F 2 "Keebio:Diode-dual" H 8750 3400 50  0001 C CNN
+F 3 "~" H 8750 3400 50  0001 C CNN
+	1    8750 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW40
+U 1 1 621CCB95
+P 8950 3250
+F 0 "SW40" H 8950 3485 50  0000 C CNN
+F 1 "SW_SPST" H 8950 3394 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8950 3250 50  0001 C CNN
+F 3 "~" H 8950 3250 50  0001 C CNN
+	1    8950 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 3250
+Connection ~ 8750 3550
+Wire Wire Line
+	9150 3250 9150 3650
+Wire Wire Line
+	8750 3550 9200 3550
+Wire Wire Line
+	8150 3550 8750 3550
+Wire Wire Line
+	5750 3550 6350 3550
+Wire Wire Line
+	3750 2600 3750 3250
+Wire Wire Line
+	4350 2600 4350 3250
+Wire Wire Line
+	4950 2600 4950 3250
+Wire Wire Line
+	5550 2600 5550 3250
+Wire Wire Line
+	6150 2600 6150 3050
+Wire Wire Line
+	6750 2600 6750 3150
+Wire Wire Line
+	7350 2600 7350 3250
+Wire Wire Line
+	7950 2600 7950 3250
+Wire Wire Line
+	8550 2600 8550 3250
+Wire Wire Line
+	9150 2600 9150 3250
+Text Label 3750 1050 0    50   ~ 0
+col_0
+Text Label 4350 1050 0    50   ~ 0
+col_1
+Text Label 4950 1050 0    50   ~ 0
+col_2
+Text Label 5550 1050 0    50   ~ 0
+col_3
+Text Label 6150 1050 0    50   ~ 0
+col_4
+Text Label 6750 1050 0    50   ~ 0
+col_5
+Text Label 7350 1050 0    50   ~ 0
+col_6
+Text Label 7950 1050 0    50   ~ 0
+col_7
+Text Label 8550 1050 0    50   ~ 0
+col_8
+Text Label 9150 1050 0    50   ~ 0
+col_9
+Text Label 3200 1600 2    50   ~ 0
+row_0
+Text Label 3200 2250 2    50   ~ 0
+row_2
+Text Label 3200 2900 2    50   ~ 0
+row_3
+Text Label 3200 3550 2    50   ~ 0
+row_4
+Text Label 2400 1500 0    50   ~ 0
+col_0
+Text Label 2400 1600 0    50   ~ 0
+col_1
+Text Label 2400 1700 0    50   ~ 0
+col_2
+Text Label 2400 1800 0    50   ~ 0
+col_3
+Text Label 2400 1900 0    50   ~ 0
+col_4
+Text Label 2400 2000 0    50   ~ 0
+col_5
+Text Label 2400 2100 0    50   ~ 0
+col_6
+Text Label 2400 2200 0    50   ~ 0
+col_7
+Text Label 1000 2200 2    50   ~ 0
+col_8
+Text Label 1000 2100 2    50   ~ 0
+col_9
+Text Label 1000 2000 2    50   ~ 0
+row_0
+Text Label 1000 1900 2    50   ~ 0
+row_1
+Text Label 1000 1800 2    50   ~ 0
+row_2
+Text Label 1000 1700 2    50   ~ 0
+row3
+$Comp
+L Switch:SW_SPST SW41
+U 1 1 6229BB31
+P 5950 3150
+F 0 "SW41" H 5950 3385 50  0000 C CNN
+F 1 "SW_SPST" H 5950 3294 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 3150 50  0001 C CNN
+F 3 "~" H 5950 3150 50  0001 C CNN
+	1    5950 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 3150
+Wire Wire Line
+	6150 3150 6150 3250
+$Comp
+L Switch:SW_SPST SW42
+U 1 1 622A1B63
+P 6550 3150
+F 0 "SW42" H 6550 3385 50  0000 C CNN
+F 1 "SW_SPST" H 6550 3294 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 3150 50  0001 C CNN
+F 3 "~" H 6550 3150 50  0001 C CNN
+	1    6550 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 3150
+Wire Wire Line
+	6750 3150 6750 3250
+Wire Wire Line
+	6350 3150 6350 3250
+Connection ~ 6350 3250
+Wire Wire Line
+	5750 3150 5750 3250
+Connection ~ 5750 3250
+$Comp
+L Switch:SW_SPST SW43
+U 1 1 622B74E5
+P 5950 3050
+F 0 "SW43" H 5950 3285 50  0000 C CNN
+F 1 "SW_SPST" H 5950 3194 50  0000 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 3050 50  0001 C CNN
+F 3 "~" H 5950 3050 50  0001 C CNN
+	1    5950 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 3050
+Wire Wire Line
+	6150 3050 6150 3150
+Wire Wire Line
+	5750 3050 5750 3150
+Connection ~ 5750 3150
+$EndSCHEMATC
