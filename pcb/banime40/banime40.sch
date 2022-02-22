@@ -19,7 +19,7 @@ U 1 1 62143F16
 P 1700 1650
 F 0 "U1" H 1700 2487 60  0000 C CNN
 F 1 "ProMicro" H 1700 2381 60  0000 C CNN
-F 2 "Keebio:Elite-C-castellated-24pin-holes" V 2750 -850 60  0001 C CNN
+F 2 "Keebio:ArduinoProMicro" V 2750 -850 60  0001 C CNN
 F 3 "" V 2750 -850 60  0001 C CNN
 	1    1700 1650
 	1    0    0    -1  
