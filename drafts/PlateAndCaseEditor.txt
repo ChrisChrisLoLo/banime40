@@ -1,0 +1,5 @@
+6 mount holes @ 4mm wide
+
+Padding of 5-7-5-7
+5mm on the verticals
+7mm on the horizontals
