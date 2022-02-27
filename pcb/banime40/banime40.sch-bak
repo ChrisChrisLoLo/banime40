@@ -41,7 +41,7 @@ U 1 1 62163EDF
 P 3550 1300
 F 0 "SW1" H 3550 1535 50  0000 C CNN
 F 1 "SW_SPST" H 3550 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 3550 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 3550 1300 50  0001 C CNN
 F 3 "~" H 3550 1300 50  0001 C CNN
 	1    3550 1300
 	1    0    0    -1  
@@ -69,7 +69,7 @@ U 1 1 62166FB5
 P 4150 1300
 F 0 "SW2" H 4150 1535 50  0000 C CNN
 F 1 "SW_SPST" H 4150 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 4150 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4150 1300 50  0001 C CNN
 F 3 "~" H 4150 1300 50  0001 C CNN
 	1    4150 1300
 	1    0    0    -1  
@@ -97,7 +97,7 @@ U 1 1 62167FFF
 P 4750 1300
 F 0 "SW3" H 4750 1535 50  0000 C CNN
 F 1 "SW_SPST" H 4750 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 4750 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4750 1300 50  0001 C CNN
 F 3 "~" H 4750 1300 50  0001 C CNN
 	1    4750 1300
 	1    0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 62169E94
 P 5350 1300
 F 0 "SW4" H 5350 1535 50  0000 C CNN
 F 1 "SW_SPST" H 5350 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5350 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5350 1300 50  0001 C CNN
 F 3 "~" H 5350 1300 50  0001 C CNN
 	1    5350 1300
 	1    0    0    -1  
@@ -153,7 +153,7 @@ U 1 1 6216C255
 P 5950 1300
 F 0 "SW5" H 5950 1535 50  0000 C CNN
 F 1 "SW_SPST" H 5950 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5950 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 1300 50  0001 C CNN
 F 3 "~" H 5950 1300 50  0001 C CNN
 	1    5950 1300
 	1    0    0    -1  
@@ -181,7 +181,7 @@ U 1 1 62183A9F
 P 6550 1300
 F 0 "SW6" H 6550 1535 50  0000 C CNN
 F 1 "SW_SPST" H 6550 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 6550 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 1300 50  0001 C CNN
 F 3 "~" H 6550 1300 50  0001 C CNN
 	1    6550 1300
 	1    0    0    -1  
@@ -207,7 +207,7 @@ U 1 1 62183AB0
 P 7150 1300
 F 0 "SW7" H 7150 1535 50  0000 C CNN
 F 1 "SW_SPST" H 7150 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 7150 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7150 1300 50  0001 C CNN
 F 3 "~" H 7150 1300 50  0001 C CNN
 	1    7150 1300
 	1    0    0    -1  
@@ -235,7 +235,7 @@ U 1 1 62183AC1
 P 7750 1300
 F 0 "SW8" H 7750 1535 50  0000 C CNN
 F 1 "SW_SPST" H 7750 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 7750 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7750 1300 50  0001 C CNN
 F 3 "~" H 7750 1300 50  0001 C CNN
 	1    7750 1300
 	1    0    0    -1  
@@ -263,7 +263,7 @@ U 1 1 62183AD2
 P 8350 1300
 F 0 "SW9" H 8350 1535 50  0000 C CNN
 F 1 "SW_SPST" H 8350 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 8350 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8350 1300 50  0001 C CNN
 F 3 "~" H 8350 1300 50  0001 C CNN
 	1    8350 1300
 	1    0    0    -1  
@@ -291,7 +291,7 @@ U 1 1 62183AE3
 P 8950 1300
 F 0 "SW10" H 8950 1535 50  0000 C CNN
 F 1 "SW_SPST" H 8950 1444 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 8950 1300 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8950 1300 50  0001 C CNN
 F 3 "~" H 8950 1300 50  0001 C CNN
 	1    8950 1300
 	1    0    0    -1  
@@ -323,7 +323,7 @@ U 1 1 621AA797
 P 3550 1950
 F 0 "SW11" H 3550 2185 50  0000 C CNN
 F 1 "SW_SPST" H 3550 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 3550 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 3550 1950 50  0001 C CNN
 F 3 "~" H 3550 1950 50  0001 C CNN
 	1    3550 1950
 	1    0    0    -1  
@@ -349,7 +349,7 @@ U 1 1 621AA7A8
 P 4150 1950
 F 0 "SW12" H 4150 2185 50  0000 C CNN
 F 1 "SW_SPST" H 4150 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 4150 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4150 1950 50  0001 C CNN
 F 3 "~" H 4150 1950 50  0001 C CNN
 	1    4150 1950
 	1    0    0    -1  
@@ -375,7 +375,7 @@ U 1 1 621AA7B9
 P 4750 1950
 F 0 "SW13" H 4750 2185 50  0000 C CNN
 F 1 "SW_SPST" H 4750 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 4750 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4750 1950 50  0001 C CNN
 F 3 "~" H 4750 1950 50  0001 C CNN
 	1    4750 1950
 	1    0    0    -1  
@@ -401,7 +401,7 @@ U 1 1 621AA7CA
 P 5350 1950
 F 0 "SW14" H 5350 2185 50  0000 C CNN
 F 1 "SW_SPST" H 5350 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5350 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5350 1950 50  0001 C CNN
 F 3 "~" H 5350 1950 50  0001 C CNN
 	1    5350 1950
 	1    0    0    -1  
@@ -427,7 +427,7 @@ U 1 1 621AA7DB
 P 5950 1950
 F 0 "SW15" H 5950 2185 50  0000 C CNN
 F 1 "SW_SPST" H 5950 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5950 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 1950 50  0001 C CNN
 F 3 "~" H 5950 1950 50  0001 C CNN
 	1    5950 1950
 	1    0    0    -1  
@@ -453,7 +453,7 @@ U 1 1 621AA7EC
 P 6550 1950
 F 0 "SW16" H 6550 2185 50  0000 C CNN
 F 1 "SW_SPST" H 6550 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 6550 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 1950 50  0001 C CNN
 F 3 "~" H 6550 1950 50  0001 C CNN
 	1    6550 1950
 	1    0    0    -1  
@@ -477,7 +477,7 @@ U 1 1 621AA7FC
 P 7150 1950
 F 0 "SW17" H 7150 2185 50  0000 C CNN
 F 1 "SW_SPST" H 7150 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 7150 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7150 1950 50  0001 C CNN
 F 3 "~" H 7150 1950 50  0001 C CNN
 	1    7150 1950
 	1    0    0    -1  
@@ -503,7 +503,7 @@ U 1 1 621AA80D
 P 7750 1950
 F 0 "SW18" H 7750 2185 50  0000 C CNN
 F 1 "SW_SPST" H 7750 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 7750 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7750 1950 50  0001 C CNN
 F 3 "~" H 7750 1950 50  0001 C CNN
 	1    7750 1950
 	1    0    0    -1  
@@ -529,7 +529,7 @@ U 1 1 621AA81E
 P 8350 1950
 F 0 "SW19" H 8350 2185 50  0000 C CNN
 F 1 "SW_SPST" H 8350 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 8350 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8350 1950 50  0001 C CNN
 F 3 "~" H 8350 1950 50  0001 C CNN
 	1    8350 1950
 	1    0    0    -1  
@@ -555,7 +555,7 @@ U 1 1 621AA82F
 P 8950 1950
 F 0 "SW20" H 8950 2185 50  0000 C CNN
 F 1 "SW_SPST" H 8950 2094 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 8950 1950 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8950 1950 50  0001 C CNN
 F 3 "~" H 8950 1950 50  0001 C CNN
 	1    8950 1950
 	1    0    0    -1  
@@ -605,7 +605,7 @@ U 1 1 621B5FF0
 P 3550 2600
 F 0 "SW21" H 3550 2835 50  0000 C CNN
 F 1 "SW_SPST" H 3550 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 3550 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 3550 2600 50  0001 C CNN
 F 3 "~" H 3550 2600 50  0001 C CNN
 	1    3550 2600
 	1    0    0    -1  
@@ -631,7 +631,7 @@ U 1 1 621B6001
 P 4150 2600
 F 0 "SW22" H 4150 2835 50  0000 C CNN
 F 1 "SW_SPST" H 4150 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 4150 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4150 2600 50  0001 C CNN
 F 3 "~" H 4150 2600 50  0001 C CNN
 	1    4150 2600
 	1    0    0    -1  
@@ -657,7 +657,7 @@ U 1 1 621B6012
 P 4750 2600
 F 0 "SW23" H 4750 2835 50  0000 C CNN
 F 1 "SW_SPST" H 4750 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 4750 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4750 2600 50  0001 C CNN
 F 3 "~" H 4750 2600 50  0001 C CNN
 	1    4750 2600
 	1    0    0    -1  
@@ -683,7 +683,7 @@ U 1 1 621B6023
 P 5350 2600
 F 0 "SW24" H 5350 2835 50  0000 C CNN
 F 1 "SW_SPST" H 5350 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5350 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5350 2600 50  0001 C CNN
 F 3 "~" H 5350 2600 50  0001 C CNN
 	1    5350 2600
 	1    0    0    -1  
@@ -709,7 +709,7 @@ U 1 1 621B6034
 P 5950 2600
 F 0 "SW25" H 5950 2835 50  0000 C CNN
 F 1 "SW_SPST" H 5950 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5950 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 2600 50  0001 C CNN
 F 3 "~" H 5950 2600 50  0001 C CNN
 	1    5950 2600
 	1    0    0    -1  
@@ -735,7 +735,7 @@ U 1 1 621B6045
 P 6550 2600
 F 0 "SW26" H 6550 2835 50  0000 C CNN
 F 1 "SW_SPST" H 6550 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 6550 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 2600 50  0001 C CNN
 F 3 "~" H 6550 2600 50  0001 C CNN
 	1    6550 2600
 	1    0    0    -1  
@@ -759,7 +759,7 @@ U 1 1 621B6055
 P 7150 2600
 F 0 "SW27" H 7150 2835 50  0000 C CNN
 F 1 "SW_SPST" H 7150 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 7150 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7150 2600 50  0001 C CNN
 F 3 "~" H 7150 2600 50  0001 C CNN
 	1    7150 2600
 	1    0    0    -1  
@@ -785,7 +785,7 @@ U 1 1 621B6066
 P 7750 2600
 F 0 "SW28" H 7750 2835 50  0000 C CNN
 F 1 "SW_SPST" H 7750 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 7750 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7750 2600 50  0001 C CNN
 F 3 "~" H 7750 2600 50  0001 C CNN
 	1    7750 2600
 	1    0    0    -1  
@@ -811,7 +811,7 @@ U 1 1 621B6077
 P 8350 2600
 F 0 "SW29" H 8350 2835 50  0000 C CNN
 F 1 "SW_SPST" H 8350 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 8350 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8350 2600 50  0001 C CNN
 F 3 "~" H 8350 2600 50  0001 C CNN
 	1    8350 2600
 	1    0    0    -1  
@@ -837,7 +837,7 @@ U 1 1 621B6088
 P 8950 2600
 F 0 "SW30" H 8950 2835 50  0000 C CNN
 F 1 "SW_SPST" H 8950 2744 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 8950 2600 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8950 2600 50  0001 C CNN
 F 3 "~" H 8950 2600 50  0001 C CNN
 	1    8950 2600
 	1    0    0    -1  
@@ -887,7 +887,7 @@ U 1 1 621CCAFD
 P 3550 3250
 F 0 "SW31" H 3550 3485 50  0000 C CNN
 F 1 "SW_SPST" H 3550 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 3550 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 3550 3250 50  0001 C CNN
 F 3 "~" H 3550 3250 50  0001 C CNN
 	1    3550 3250
 	1    0    0    -1  
@@ -915,7 +915,7 @@ U 1 1 621CCB0E
 P 4150 3250
 F 0 "SW32" H 4150 3485 50  0000 C CNN
 F 1 "SW_SPST" H 4150 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 4150 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4150 3250 50  0001 C CNN
 F 3 "~" H 4150 3250 50  0001 C CNN
 	1    4150 3250
 	1    0    0    -1  
@@ -943,7 +943,7 @@ U 1 1 621CCB1F
 P 4750 3250
 F 0 "SW33" H 4750 3485 50  0000 C CNN
 F 1 "SW_SPST" H 4750 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 4750 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 4750 3250 50  0001 C CNN
 F 3 "~" H 4750 3250 50  0001 C CNN
 	1    4750 3250
 	1    0    0    -1  
@@ -971,7 +971,7 @@ U 1 1 621CCB30
 P 5350 3250
 F 0 "SW34" H 5350 3485 50  0000 C CNN
 F 1 "SW_SPST" H 5350 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5350 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5350 3250 50  0001 C CNN
 F 3 "~" H 5350 3250 50  0001 C CNN
 	1    5350 3250
 	1    0    0    -1  
@@ -999,7 +999,7 @@ U 1 1 621CCB41
 P 5950 3250
 F 0 "SW35" H 5950 3485 50  0000 C CNN
 F 1 "SW_SPST" H 5950 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5950 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 3250 50  0001 C CNN
 F 3 "~" H 5950 3250 50  0001 C CNN
 	1    5950 3250
 	1    0    0    -1  
@@ -1027,7 +1027,7 @@ U 1 1 621CCB52
 P 6550 3250
 F 0 "SW36" H 6550 3485 50  0000 C CNN
 F 1 "SW_SPST" H 6550 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 6550 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 3250 50  0001 C CNN
 F 3 "~" H 6550 3250 50  0001 C CNN
 	1    6550 3250
 	1    0    0    -1  
@@ -1053,7 +1053,7 @@ U 1 1 621CCB62
 P 7150 3250
 F 0 "SW37" H 7150 3485 50  0000 C CNN
 F 1 "SW_SPST" H 7150 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 7150 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7150 3250 50  0001 C CNN
 F 3 "~" H 7150 3250 50  0001 C CNN
 	1    7150 3250
 	1    0    0    -1  
@@ -1081,7 +1081,7 @@ U 1 1 621CCB73
 P 7750 3250
 F 0 "SW38" H 7750 3485 50  0000 C CNN
 F 1 "SW_SPST" H 7750 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 7750 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 7750 3250 50  0001 C CNN
 F 3 "~" H 7750 3250 50  0001 C CNN
 	1    7750 3250
 	1    0    0    -1  
@@ -1109,7 +1109,7 @@ U 1 1 621CCB84
 P 8350 3250
 F 0 "SW39" H 8350 3485 50  0000 C CNN
 F 1 "SW_SPST" H 8350 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 8350 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8350 3250 50  0001 C CNN
 F 3 "~" H 8350 3250 50  0001 C CNN
 	1    8350 3250
 	1    0    0    -1  
@@ -1137,7 +1137,7 @@ U 1 1 621CCB95
 P 8950 3250
 F 0 "SW40" H 8950 3485 50  0000 C CNN
 F 1 "SW_SPST" H 8950 3394 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 8950 3250 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 8950 3250 50  0001 C CNN
 F 3 "~" H 8950 3250 50  0001 C CNN
 	1    8950 3250
 	1    0    0    -1  
@@ -1195,11 +1195,11 @@ col_9
 Text Label 3200 1600 2    50   ~ 0
 row_0
 Text Label 3200 2250 2    50   ~ 0
-row_2
+row_1
 Text Label 3200 2900 2    50   ~ 0
-row_3
+row_2
 Text Label 3200 3550 2    50   ~ 0
-row_4
+row_3
 Text Label 2400 1500 0    50   ~ 0
 col_0
 Text Label 2400 1600 0    50   ~ 0
@@ -1227,14 +1227,14 @@ row_1
 Text Label 1000 1800 2    50   ~ 0
 row_2
 Text Label 1000 1700 2    50   ~ 0
-row3
+row_3
 $Comp
 L Switch:SW_SPST SW41
 U 1 1 6229BB31
 P 5950 3150
 F 0 "SW41" H 5950 3385 50  0000 C CNN
 F 1 "SW_SPST" H 5950 3294 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5950 3150 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 3150 50  0001 C CNN
 F 3 "~" H 5950 3150 50  0001 C CNN
 	1    5950 3150
 	1    0    0    -1  
@@ -1248,7 +1248,7 @@ U 1 1 622A1B63
 P 6550 3150
 F 0 "SW42" H 6550 3385 50  0000 C CNN
 F 1 "SW_SPST" H 6550 3294 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 6550 3150 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 6550 3150 50  0001 C CNN
 F 3 "~" H 6550 3150 50  0001 C CNN
 	1    6550 3150
 	1    0    0    -1  
@@ -1268,7 +1268,7 @@ U 1 1 622B74E5
 P 5950 3050
 F 0 "SW43" H 5950 3285 50  0000 C CNN
 F 1 "SW_SPST" H 5950 3194 50  0000 C CNN
-F 2 "MX_switches:Kailh_socket_MX_optional" H 5950 3050 50  0001 C CNN
+F 2 "MX_switches:Kailh_socket_MX" H 5950 3050 50  0001 C CNN
 F 3 "~" H 5950 3050 50  0001 C CNN
 	1    5950 3050
 	1    0    0    -1  

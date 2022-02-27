@@ -1195,11 +1195,11 @@ col_9
 Text Label 3200 1600 2    50   ~ 0
 row_0
 Text Label 3200 2250 2    50   ~ 0
-row_2
+row_1
 Text Label 3200 2900 2    50   ~ 0
-row_3
+row_2
 Text Label 3200 3550 2    50   ~ 0
-row_4
+row_3
 Text Label 2400 1500 0    50   ~ 0
 col_0
 Text Label 2400 1600 0    50   ~ 0
@@ -1226,8 +1226,6 @@ Text Label 1000 1900 2    50   ~ 0
 row_1
 Text Label 1000 1800 2    50   ~ 0
 row_2
-Text Label 1000 1700 2    50   ~ 0
-row3
 $Comp
 L Switch:SW_SPST SW41
 U 1 1 6229BB31
@@ -1279,4 +1277,16 @@ Wire Wire Line
 Wire Wire Line
 	5750 3050 5750 3150
 Connection ~ 5750 3150
+NoConn ~ 2400 1100
+NoConn ~ 2400 1200
+NoConn ~ 2400 1300
+NoConn ~ 2400 1400
+NoConn ~ 1000 1600
+NoConn ~ 1000 1500
+NoConn ~ 1000 1400
+NoConn ~ 1000 1300
+NoConn ~ 1000 1200
+NoConn ~ 1000 1100
+Text Label 1000 1700 2    50   ~ 0
+row_3
 $EndSCHEMATC
