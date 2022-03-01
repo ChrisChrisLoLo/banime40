@@ -3,3 +3,5 @@
 Padding of 5-7-5-7
 5mm on the verticals
 7mm on the horizontals
+
+you'll need to add 1mm of tolerance for the top piece to prevent collision with keycaps
