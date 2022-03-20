@@ -42,3 +42,6 @@ A zipped set of Gerbers have been placed in the `pcb` directory, which should be
     Outlines used to create the case and pcb
 - `pcb`
     Kicad project relating to the project
+    
+## Attribution
+All emojis designed by OpenMoji – the open-source emoji and icon project. License: CC BY-SA 4.0
