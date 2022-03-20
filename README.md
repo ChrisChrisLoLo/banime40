@@ -15,6 +15,7 @@ PCBs have been produced and assembled. The design of the keyboard is good for di
     - A modular top ("mod top™") system is used, allowing you to print and swap out the top piece of the case, depending on what layout you wish to use
 - VIA Compatible *
     - hex file can be found in the firmware section
+    - VIA json available to be sidedloaded with VIAL
     - QMK PR planned
 
 ## Supported Layouts
