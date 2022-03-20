@@ -1,6 +1,6 @@
 # banime40
 
-<img src="https://raw.githubusercontent.com/ChrisChrisLoLo/banime40/master/docs/images/IMG_20220319_143632.jpg" width="800">
+<img src="https://raw.githubusercontent.com/ChrisChrisLoLo/banime40/master/docs/images/IMG_20220319_143632.jpg" width="500">
 
 A 4x10 gasket mounted hotswap ortho keyboard that supports multiple configurations.
 
@@ -12,11 +12,26 @@ PCBs have been produced and assembled. The design of the keyboard is good for di
 - Gasket Mounted
 - Multiple layouts supported
     - Grid, MIT, HHKB, WKL, REVIUNG33, and other layouts supported
+    - A modular top ("mod top™") system is used, allowing you to print and swap out the top piece of the case, depending on what layout you wish to use
 - VIA Compatible *
     - hex file can be found in the firmware section
     - QMK PR planned
 
-# Directory Structure
+## Supported Layouts
+Refer to the KLE diagram below to see all possible configurations. Note that each colored cluster represents different options.
+There are, in total, 24 possible key configurations possible.
+
+<img src="https://raw.githubusercontent.com/ChrisChrisLoLo/banime40/master/docs/images/keyboard-layout.png">
+
+## Case 
+All of the case files you need can be found in the `case` directory. You will need the "Bottom" case file, the "Plate" case file, as well as one of the "Top" case files, depending on what kind of layout you want (WK, HHKB, WKL, etc.). Use the Github model preview feature to get a better understanding of what top you may want to pick
+
+ <img src="https://raw.githubusercontent.com/ChrisChrisLoLo/banime40/master/docs/images/IMG_20220319_144006.jpg" width="500">
+
+## PCB
+A zipped set of Gerbers have been placed in the `pcb` directory, which should be ready to be sent off imediately to JLCPCB or the like.
+
+## Directory Structure
 - `case`
     You can find the files you need in this folder to print out a case for the keyboard
 - `drafts`
