@@ -5590,7 +5590,7 @@
   (gr_line (start 128.5308 72.11045) (end 125.9124 74.27185) (layer B.SilkS) (width 0.88))
   (gr_line (start 152.8352 97.07025) (end 153.9636 95.24625) (layer B.SilkS) (width 0.88))
   (gr_line (start 152.4 97.63125) (end 152.8352 97.07025) (layer B.SilkS) (width 0.88))
-  (gr_text panic!! (at 96.04375 83.34375) (layer B.SilkS)
+  (gr_text panic! (at 96.04375 83.34375) (layer B.SilkS)
     (effects (font (size 6 6) (thickness 0.6)) (justify mirror))
   )
   (gr_arc (start 44.45 50.00625) (end 42.8625 50.00625) (angle 90) (layer Edge.Cuts) (width 0.05))
