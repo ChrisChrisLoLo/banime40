@@ -19,7 +19,7 @@ U 1 1 62143F16
 P 1700 1650
 F 0 "U1" H 1700 2487 60  0000 C CNN
 F 1 "ProMicro" H 1700 2381 60  0000 C CNN
-F 2 "Keebio:ArduinoProMicro" V 2750 -850 60  0001 C CNN
+F 2 "Keebio:ArduinoProMicroBackWithLabels" V 2750 -850 60  0001 C CNN
 F 3 "" V 2750 -850 60  0001 C CNN
 	1    1700 1650
 	1    0    0    -1  
@@ -1301,7 +1301,31 @@ $EndComp
 Wire Wire Line
 	2400 1200 2550 1200
 Wire Wire Line
-	2400 1300 2950 1300
+	2400 1300 2900 1300
 Wire Wire Line
 	2950 1300 2950 1200
+Wire Wire Line
+	2900 1300 2900 1200
+Wire Wire Line
+	2900 1200 2750 1200
+Connection ~ 2900 1300
+Wire Wire Line
+	2900 1300 2950 1300
+$Comp
+L Switch:SW_SPST SW45
+U 1 1 62598440
+P 2750 1100
+F 0 "SW45" H 2750 1335 50  0000 C CNN
+F 1 "SW_SPST" H 2750 1244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_FSMSM" H 2750 1100 50  0001 C CNN
+F 3 "~" H 2750 1100 50  0001 C CNN
+	1    2750 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1100 2550 1200
+Connection ~ 2550 1200
+Wire Wire Line
+	2950 1100 2950 1200
+Connection ~ 2950 1200
 $EndSCHEMATC
