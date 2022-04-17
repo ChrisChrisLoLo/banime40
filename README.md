@@ -16,7 +16,7 @@ PCBs have been produced and assembled. The design of the keyboard is good for di
 - VIA Compatible *
     - hex file can be found in the firmware section
     - VIA json available to be sidedloaded with VIAL
-    - QMK PR planned
+    - QMK PR merged
 
 ## Supported Layouts
 Refer to the KLE diagram below to see all possible configurations. Note that each colored cluster represents different options.
