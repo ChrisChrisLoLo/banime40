@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name keebio-components)(type KiCad)(uri /Users/chriz/Documents/CAD/banime40/pcb/keebio-components)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri /Users/chriz/Documents/CAD/banime40/pcb/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name keyswitch-kicad-library)(type KiCad)(uri /Users/chriz/Documents/CAD/banime40/pcb/keyswitch-kicad-library)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri /Users/chriz/Documents/CAD/banime40/pcb/keyswitches.pretty)(options "")(descr ""))
+)
