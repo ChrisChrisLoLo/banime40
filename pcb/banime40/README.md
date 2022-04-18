@@ -41,4 +41,4 @@ Once you have all the parts, you will want to do the following steps. Following 
 - Solder on the pro-micro
     - Ensure that the components under the pro-micro footprint have a solid solder connection before soldering the header pins.
     - The pro-micro **must** be on the same side as the other components, with the pro-micro facing up.
-    - Low profile female sockets should work.
+    - Low profile female sockets should work, though I do think it might be cutting it close hight wise.
