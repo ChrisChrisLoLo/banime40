@@ -1,13 +1,19 @@
 # PCB
-
 This section contains information about making your own assembled PCB
 
-# Gerbers
-A zipped file containing the Gerbers you need should be already provided, and ready to be used by JLCPCB. You may need to re-generate the Gerbers if you go with a different PCB service.
+## Acknowledgements
+Thank you to PCBWay for sponsoring research and development for the banime40. Because of them, I can further iterate on this board, as well as do some experimentation with SLA printed cases. I found their service to be fast and easy to use, so I do endorse using them for your PCB printing needs.
 
-The standard JLCPCB settings should be fine.
+## Gerbers
+A zipped file containing the Gerbers you need should be already provided for certain PCB print services. You may need to re-generate the Gerbers if you go with a different PCB service.
 
-# Bill of Materials
+When ordering from PCBWay or the like, the standard print settings should be fine, though I do recommend the Lead free HASL surface finish, mostly out of concern for long term health. If you think having a leaded surface is fine, feel free to go with that option.
+
+Follow this guide to learn more about uploading Gerbers to services like PCBWay: 
+https://www.pcbway.com/helpcenter/Findproducts/How_do_I_place_an_order_.html
+
+## Bill of Materials
+Here is the list of materials you will need:
     - 1 pro-micro. I highly recommend using the USB-C pro-micros, as I build the PCB with the size of that microcontroller in mind. Other pro-micro compatible boards should also be fine.
     - Appropriate header
     - 43x Kailh hotswap sockets
@@ -21,7 +27,7 @@ The standard JLCPCB settings should be fine.
         - Note that the cases currently do not have holes to support this button
         - Note that I plan to swap out this button with a more standard size
 
-# Assembly
+## Assembly
 Once you have all the parts, you will want to do the following steps. Following similar build guides, like the CRKBD or REVIUNG41 build guides should give you a rough idea of the build, if this is your first time assembling a board.
 - Solder on the diodes first, as they are the smallest parts.
     - Remember that diode polarity does matter, so refer to diode reference guides if needed.
