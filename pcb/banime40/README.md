@@ -14,18 +14,18 @@ https://www.pcbway.com/helpcenter/Findproducts/How_do_I_place_an_order_.html
 
 ## Bill of Materials
 Here is the list of materials you will need:
-    - 1 pro-micro. I highly recommend using the USB-C pro-micros, as I build the PCB with the size of that microcontroller in mind. Other pro-micro compatible boards should also be fine.
-    - Appropriate header
-    - 43x Kailh hotswap sockets
-    - 40x Diodes
-        - PCB supports either through-hole or SMD
-            - I found that through-hole is more commonly found, but leave "pokey" bits on the pcb, while SMD diodes are a tad bit harder to get, while leading to a cleaner PCB
-            - If going down the SMD route, I personally prefer the black diodes over the glass ones
-    - [Optional] 1x reset button
-        - A 3x4mm SMD buttom should do it (haven't confirmed)
-        - I recommend just shorting the micro-controller pins or using bootmagic instead to reset the board though.
-        - Note that the cases currently do not have holes to support this button
-        - Note that I plan to swap out this button with a more standard size
+- 1 pro-micro. I highly recommend using the USB-C pro-micros, as I build the PCB with the size of that microcontroller in mind. Other pro-micro compatible boards should also be fine.
+- Appropriate header
+- 43x Kailh hotswap sockets
+- 40x Diodes
+  - PCB supports either through-hole or SMD
+  - I found that through-hole is more commonly found, but leave "pokey" bits on the pcb, while SMD diodes are a tad bit harder to get, while leading to a cleaner PCB
+  - If going down the SMD route, I personally prefer the black diodes over the glass ones
+- [Optional] 1x reset button
+  - A 3x4mm SMD buttom should do it (haven't confirmed)
+  - I recommend just shorting the micro-controller pins or using bootmagic instead to reset the board though.
+  - Note that the cases currently do not have holes to support this button
+  - Note that I plan to swap out this button with a more standard size
 
 ## Assembly
 Once you have all the parts, you will want to do the following steps. Following similar build guides, like the CRKBD or REVIUNG41 build guides should give you a rough idea of the build, if this is your first time assembling a board.
