@@ -30,7 +30,7 @@ All of the case files you need can be found in the `case` directory. You will ne
  <img src="https://raw.githubusercontent.com/ChrisChrisLoLo/banime40/master/docs/images/IMG_20220319_144006.jpg" width="500">
 
 ## PCB
-A zipped set of Gerbers have been placed in the `pcb` directory, which should be ready to be sent off imediately to PCBWay or the like. PCBWay has helped sponsor some new iterations of the banime40, and has provided a fast, easy service while ordering from them, so I recommend checking them out for your PCB and FDM printing needs.
+A zipped set of Gerbers have been placed in the `pcb` directory, which should be ready to be sent off imediately to PCBWay or the like. [PCBWay](https://www.pcbway.com/) has helped sponsor some new iterations of the banime40, and has provided a fast, easy service while ordering from them, so I recommend checking them out for your PCB and FDM printing needs.
 
 ## Directory Structure
 - `case`
