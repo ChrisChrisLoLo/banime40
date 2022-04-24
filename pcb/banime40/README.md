@@ -2,7 +2,7 @@
 This section contains information about making your own assembled PCB
 
 ## Acknowledgements
-Thank you to PCBWay for sponsoring research and development for the banime40. Because of them, I can further iterate on this board, as well as do some experimentation with SLA printed cases. I found their service to be fast and easy to use, so I do endorse using them for your PCB printing needs.
+Thank you to [PCBWay](https://www.pcbway.com/) for sponsoring research and development for the banime40. Because of them, I can further iterate on this board, as well as do some experimentation with SLA printed cases. I found their service to be fast and easy to use, so I do endorse using them for your PCB printing needs.
 
 ## Gerbers
 A zipped file containing the Gerbers you need should be already provided for certain PCB print services. You may need to re-generate the Gerbers if you go with a different PCB service.
