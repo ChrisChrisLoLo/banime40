@@ -8,6 +8,7 @@ A 4x10 gasket mounted hotswap ortho keyboard that supports multiple configuratio
 v2.0 PCBs have been produced and assembled. The design of the keyboard is good for distrubution, as I've been using one as my daily driver
 
 v3.1 tries enables the rotary encoders without the workarounds, though this board hasn't been tested
+
 v3.0 adds additional screw hole. Introduces rotary encoders that are non-functional without workarounds
 
 **NOTE**: If you have a v3.0 PCB, note that rotary encoders will _not_ work unless one of the encoder grounds is jumped to GND. This is because the original leads hooked up to the wrong side of the reset button due to a mistake made in eeschema.
