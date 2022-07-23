@@ -12,7 +12,7 @@ v3.0 adds additional screw hole. Introduces rotary encoders that are non-functio
 
 **NOTE**: If you have a v3.0 PCB, note that rotary encoders will _not_ work unless one of the encoder grounds is jumped to GND. This is because the original leads hooked up to the wrong side of the reset button due to a mistake made in eeschema.
 
-I will create a short guide as to how to fix this, and I have pushed a v3.1 PCB that fixes this issue.
+You can find a guide to work around this [here](https://github.com/ChrisChrisLoLo/banime40/blob/master/docs/v3Workaround.md)
 
 ## Features
 - Hotswap
