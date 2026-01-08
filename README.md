@@ -4,6 +4,8 @@
 
 A 4x10 gasket mounted hotswap ortho keyboard that supports multiple configurations.
 
+Get it here if you're in the EU!: https://keycapsss.com/Banime40-PCB/KC10266
+
 ## Status
 v2.0 PCBs have been produced and assembled. The design of the keyboard is good for distrubution, as I've been using one as my daily driver
 
